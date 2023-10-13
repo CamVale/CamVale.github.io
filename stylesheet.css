@@ -1,0 +1,44 @@
+*{
+    background-color: yellowgreen;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: red;
+}
+
+a {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ol, ul {
+    color: blue;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: blue;
+    padding: 10px;
+}
+
+.grid-item {
+    grid-column: auto;
+    grid-row: auto;
+    background-color: aliceblue;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center 10px;
+}
